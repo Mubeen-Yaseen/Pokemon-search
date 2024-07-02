@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #030328;
+}
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.heading {
+    color: aliceblue;
+    margin-top: .5rem;
+    text-align: center;
+    font-family: "Freeman", sans-serif;
+}
+
+/* Search Section */
+
+.container {
+    margin-top: 1rem;
+    width: 23rem;
+    background-color: #f5f6f7;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 0px 0px rgba(223, 220, 220, 0.75);
+
+
+}
+
+.Upper {
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 1rem 0rem;
+
+    border-radius: 1rem 1rem 0rem 0rem;
+    text-align: center;
+
+}
+
+#inputtext {
+    padding: 5px 8px;
+    margin-top: .4rem;
+    margin-right: 5px;
+}
+
+#btn {
+    margin-top: .4rem;
+    padding: 8px 8px;
+    border-radius: 9rem;
+    outline: none;
+    border: 0;
+    background-color: #7f21ab;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+/* Middle Part */
+.Mid {
+    margin: 1rem;
+    background-color: #f0f1f7;
+    padding: .7rem 1rem;
+}
+
+.nameorid {
+    font-family: "Radio Canada Big", sans-serif;
+    font-size: 1.2rem;
+}
+
+.wat-hit {
+    font-family: "Montserrat", sans-serif;
+    font-size: .9rem;
+}
+
+#pokemon {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+}
+#pokemon-img{
+    width: 8rem;
+}
+#types{
+    display: flex;
+  gap: 6px;
+}
+.type{
+    padding: 7px 20px;
+  background-color: red;
+  border-radius: 6px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+}
+
+/* table section  */
+
+.bottam-table {
+    margin: 1rem;
+    color: white;
+    text-align: center;
+    
+}
+
+.td {
+    padding: .4rem 3.8rem;
+    background-color: #7f21ab;
+    border-bottom: 3px solid white;
+    font-family: "Montserrat", sans-serif;
+    
+   
+}
+.th{
+    padding: .4rem 2.1rem;
+    background-color: #7f21ab;
+    border-bottom: 3px solid white;
+  border-left: 3px solid white;  
+  font-family: "Montserrat", sans-serif;
+}
+
+/* special color for types of pokemon */
+.normal {
+    background-color: #b7b7aa;
+  }
+  
+  .fire {
+    background-color: #ff6f52;
+  }
+  
+  .water {
+    background-color: #42a1ff;
+  }
+  
+  .electric {
+    background-color: #fecc33;
+  }
+  
+  .grass {
+    background-color: #78cc55;
+  }
+  
+  .ice {
+    background-color: #66ccfe;
+  }
+  
+  .fighting {
+    background-color: #d3887e;
+  }
+  
+  .poison {
+    background-color: #c68bb7;
+  }
+  
+  .ground {
+    background-color: #dfba52;
+  }
+  
+  .flying {
+    background-color: #8899ff;
+  }
+  
+  .psychic {
+    background-color: #ff66a3;
+  }
+  
+  .bug {
+    background-color: #aabb23;
+  }
+  
+  .rock {
+    background-color: #baaa66;
+  }
+  
+  .ghost {
+    background-color: #9995d0;
+  }
+  
+  .dragon {
+    background-color: #9e93f1;
+  }
+  
+  .dark {
+    background-color: #b59682;
+  }
+  
+  .steel {
+    background-color: #abaabb;
+  }
+  
+  .fairy {
+    background-color: #ed99ed;
+  }

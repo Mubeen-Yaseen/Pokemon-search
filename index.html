@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Search App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">Build a Pokémon Search App</h1>
+<main>
+    <div class="container">
+        <div class="Upper">
+            <label for="inputtext">Search Pokémon with Name or ID:</label>
+            <input type="text" id="inputtext">
+            <button id="btn">Search</button>
+        </div>
+        <div class="Mid">
+            <div class="nameorid"><span id="name"></span><span id="Id"></span></div>
+            <div class="wat-hit"><span id="weight"> </span><span id="height"></span></div>
+            <div id="pokemon"></div>
+            <div id="types"></div>
+        </div>
+        <div class="bottam-table">
+            <table>
+                <tr>
+                    <th class="td">Base</th>
+                    <th class="th">Stats</th>
+                </tr>
+                <tr>
+                    <td class="td">HP:</td>
+                    <td class="th" id="hp"></td>
+                </tr>
+                <tr>
+                    <td class="td">Attack:</td>
+                    <td class="th" id="attact"></td>
+                </tr>
+                <tr>
+                    <td class="td">Defense:</td>
+                    <td class="th" id="defence"></td>
+                </tr>
+                <tr>
+                    <td class="td">Sp.Attack:</td>
+                    <td class="th" id="sp-attact"></td>
+                </tr>
+                <tr>
+                    <td class="td">Sp.Defense:</td>
+                    <td class="th" id="sp-defence"></td>
+                    </tr>
+                <tr>
+                    <td class="td">Speed:</td>
+                    <td class="th" id="speed"></td>
+                </tr>
+            </table>
+          
+        </div>
+    </div>
+</main>
+
+    <script src="script.js"></script>
+</body>
+</html>
